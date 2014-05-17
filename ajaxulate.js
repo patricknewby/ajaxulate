@@ -1,3 +1,4 @@
+var ajaxulate;
 ajaxulate = {
 	post: function(url, data, callback){
 		$.ajax({
