@@ -23,5 +23,5 @@ ajaxulate = {
 };
 
 if(!window.jQuery){
-	throw "jQuery was not detected, ajaxulate will not work correctly";
+	console.error("jQuery was not detected, ajaxulate will not load correctly.");
 }
