@@ -22,6 +22,6 @@ ajaxulate = {
 	}
 };
 
-if(!jQuery){
+if(jQuery instanceof undefined){
 	throw "jQuery was not detected, ajaxulate will not work correctly";
 }
